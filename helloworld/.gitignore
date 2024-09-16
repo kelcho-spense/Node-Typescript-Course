@@ -1,0 +1,59 @@
+# Node.js dependencies
+node_modules/
+# Optional npm cache directory
+.npm
+# Optional eslint cache
+.eslintcache
+
+# TypeScript build output
+dist/
+build/
+# TypeScript cache
+*.tsbuildinfo
+
+# TSX related
+.esbuild-cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional REPL history
+.node_repl_history
+
+# Dependency directories
+jspm_packages/
+
+# Optional coverage directory
+coverage/
+
+# IDE and Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+._*
+
+# Miscellaneous
+*.tgz
+*.lock
+*.swp
+*.swo
