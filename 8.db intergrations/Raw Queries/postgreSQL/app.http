@@ -1,0 +1,14 @@
+
+### HTTP/1.1
+GET http://localhost:8000/  HTTP/1.1
+
+
+###
+
+GET http://localhost:8000/about HTTP/1.1
+
+###
+
+GET http://localhost:8000/about2 HTTP/1.1
+
+###

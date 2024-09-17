@@ -1,8 +1,7 @@
 {
-  "name": "mssql",
+  "name": "postgressql",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "type": "module",
   "scripts": {
     "start": "node dist/index.js",
     "dev": "tsx watch src/index.ts",
@@ -12,12 +11,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/mssql": "^9.1.5",
     "@types/node": "^22.5.5",
+    "@types/pg": "^8.11.10",
     "tsx": "^4.19.1",
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "mssql": "^11.0.1"
+    "pg": "^8.12.0"
   }
 }

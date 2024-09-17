@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
     "target": "ESNext",                     // Target ES6 or later to support modern JavaScript features
-    "module": "Node16",                 // Use CommonJS modules for Node.js
+    "module": "CommonJS",                 // Use CommonJS modules for Node.js
     "rootDir": "./src",                   // Source files location
     "outDir": "./dist",                   // Output directory for compiled files
     "esModuleInterop": true,              // Enables support for `import` in CommonJS
     "strict": true,                       // Enables strict type-checking options
     "skipLibCheck": true,                 // Skips type checking of declaration files
-    "moduleResolution": "Node16",           // For resolving node modules
+    "moduleResolution": "node",           // For resolving node modules
     "resolveJsonModule": true,            // Enable importing `.json` files
     "allowSyntheticDefaultImports": true, // Allow default imports from modules
     "forceConsistentCasingInFileNames": true // Ensure consistent casing in file names
