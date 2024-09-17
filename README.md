@@ -60,11 +60,16 @@ cd nodejs-typescript-project/the_project_you_want_install_dependancies
 ```bash
 npm install
 ```
-3. Run the Project: Compile the TypeScript code and run the Node.js application.
+3. Run the Project in dev mode:
+
+```bash
+npm run dev
+```
+4. Run the project in production mode: Compile the TypeScript code and run the application.
 
 ```bash
 npm run build
-npm start
+npm run start
 ```
 
 ## Contribution
